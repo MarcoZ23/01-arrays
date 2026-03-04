@@ -52,4 +52,6 @@ if (teachers.length === 0) {
 }
 
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = teachers.length === 0;
+  console.log(isTeachersEmpty);
+  
